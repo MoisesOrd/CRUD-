@@ -1,5 +1,4 @@
-﻿using ComputerBss;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,11 +15,6 @@ namespace Computer_Vistas
         public ComputerListar()
         {
             InitializeComponent();
-        }
-        ComputerBss bss = new ComputerBss();
-        private void ComputerListar_Load(object sender, EventArgs e)
-        {
-            dataGridView1.DataSource = bss.ListarComputerBss();
         }
     }
 }
