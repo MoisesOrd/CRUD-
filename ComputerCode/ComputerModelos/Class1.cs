@@ -1,4 +1,4 @@
-﻿namespace ComputerBss
+﻿namespace ComputerModelos
 {
     public class Class1
     {
